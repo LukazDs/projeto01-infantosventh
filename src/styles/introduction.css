@@ -1,0 +1,86 @@
+@import url("./information.css");
+
+.page-introduction {
+    width: 100%;
+    height: 100vh;
+
+    background-image: url('../assets/bg-page01..jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: space-around;
+}
+.personagem-perfil {
+    width: 46%;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mural {
+    width: 378px;
+    height: 365px;
+
+    background-image: url('../assets/mural.svg');
+
+    margin-top: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.personagem-perfil > p {
+    margin-top: 20px;
+
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 500;
+
+    color: white;
+}
+.personagem-information {
+    width: 46%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+}
+.info-content-personagem {
+    display: flex;
+    width: 100%;
+}
+.info-left, .info-right{
+    width: 50%;
+    height: 420px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+
+    display: flex;
+    flex-direction: column;
+}
+.info-left > p, .info-right > p  {
+    margin: 12px 0 12px 30px; 
+    padding: 6px 0;
+}
+.info-right > p {
+    color: #013F9D;
+}
+.info-left > p{
+    color: black;
+}
+.info-right {
+    position: relative;
+}
+.icon-peron {
+
+    position: fixed;
+    right: 102px;
+    bottom: 46px;
+}
