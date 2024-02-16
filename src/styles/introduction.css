@@ -4,7 +4,7 @@
     width: 100%;
     height: 100vh;
 
-    background-image: url('../assets/bg-page01..jpeg');
+    background-image: url('../assets/bg-page01.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -47,7 +47,9 @@
     height: 100vh;
 
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
 }
 .info-content-personagem {
     display: flex;
@@ -75,12 +77,13 @@
 .info-left > p{
     color: black;
 }
-.info-right {
-    position: relative;
-}
 .icon-peron {
+    height: 80px;
+    width: 80px;
 
-    position: fixed;
-    right: 102px;
-    bottom: 46px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 4% 7%;
+    z-index: 2;
 }

@@ -14,7 +14,7 @@
             <p class="logo-title">Infanto Sofrenica</p>
         </div>
         <div class="options-menu-topo">
-            <button class="option" onclick="changeColor(this)">
+            <button class="option" onclick="changeColor(this), changePage(this)">
                 Inventário
             </button>
             <button class="option" onclick="changeColor(this)">
@@ -31,48 +31,69 @@
             </button>
         </div>
     </menu>
-    <section class="page-introduction">
-        <div class="personagem-perfil">
-            <div class="mural">
-                <img src="./src/assets/perfil-personagem.png" alt="imagem personagem">
+    <section class="pages">
+        <section class="page-introduction ">
+            
+            <div class="personagem-perfil">
+                <div class="mural">
+                    <img src="./src/assets/perfil-personagem.png" alt="imagem personagem">
+                </div>
+                <p>Sventh (O LOUCO)</p>
             </div>
-            <p>Sventh (O LOUCO)</p>
-        </div>
-        <div class="personagem-information">
+            <div class="personagem-information">
+                <div class="info-topo">
+                   Informações pessoais
+                </div>
+                <div class="information">
+                    <div class="info-content-personagem">
+                        <div class="info-left">
+                            <p>Jogador:</p>
+                            <p>Nome:</p>
+                            <p>Sobrenome:</p>
+                            <p>Idade:</p>
+                            <p>Espécie:</p>
+                            <p>Raça:</p>
+                            <p>Ouro</p>
+                            <p>Domínio:</p>
+                            <p>Emana:</p>
+                        </div>
+                        <div class="info-right">
+                            <p>Lucas</p>
+                            <p>Sventh</p>
+                            <p>D'Navaro</p>
+                            <p>29</p>
+                            <p>Humano</p>
+                            <p>Peron</p>
+                            <p>200 dg</p>
+                            <p>M/E/I</p>
+                            <p>Fogo</p>
+                            <img 
+            class="icon-peron" 
+            src="./src/assets/icone-peron.png" 
+            alt="icon-peron" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section class="page-inventory display-none">
             <div class="information">
                 <div class="info-topo">
-                    <p>Informações pessoais</p>
-                </div>
-                <div class="info-content-personagem">
-                    <div class="info-left">
-                        <p>Jogador:</p>
-                        <p>Nome:</p>
-                        <p>Sobrenome:</p>
-                        <p>Idade:</p>
-                        <p>Espécie:</p>
-                        <p>Raça:</p>
-                        <p>Ouro</p>
-                        <p>Domínio:</p>
-                        <p>Emana:</p>
-                    </div>
-                    <div class="info-right">
-                        <p>Lucas</p>
-                        <p>Sventh</p>
-                        <p>D'Navaro</p>
-                        <p>29</p>
-                        <p>Humano</p>
-                        <p>Peron</p>
-                        <p>200 dg</p>
-                        <p>M/E/I</p>
-                        <p>Fogo</p>
-                        <img 
-                            class="icon-peron" 
-                            src="./src/assets/icone-peron.png" 
-                            alt="icon-peron" />
-                    </div>
+                    Armas e Armaduras
                 </div>
             </div>
-        </div>
+            <div class="images-inventory">
+                <img src="./src/assets/emblema-guerreiro.png" alt="emblema-guerreiro">
+                <img src="./src/assets/emblema-mago.png" alt="emblema-guerreiro">
+                <img src="./src/assets/emblema-bruxo.png" alt="emblema-guerreiro">
+            </div>
+            <div class="information">
+                <div class="info-topo">
+                    Armas e Armaduras
+                </div>
+            </div>
+        </section>
     </section>
     <script src="./src/main.js"></script>
 </body>
