@@ -1,3 +1,7 @@
+function reloadPage() {
+    window.location.reload()
+}
+
 function changeColor(element) {
     const optionChoice = document.querySelector(".option-choice")
 
