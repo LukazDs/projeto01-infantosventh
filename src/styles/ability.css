@@ -1,0 +1,11 @@
+.page-ability {
+    width: 100%;
+    height: 100vh;
+
+    background-image: url('../assets/bg-page04.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: space-around;
+}

@@ -21,6 +21,9 @@ function changePage(element) {
     if(optionButton === "Inventário") {
         makePageInventory(page)
     }
+    if(optionButton === "Atributos") {
+        makePageAtribute(page)
+    }
 
 }
 
@@ -63,5 +66,155 @@ function makePageInventory(page) {
                     </div>   
                 </div>
             </section>
+        `
+}
+
+function makePageAtribute(page) {
+    page.innerHTML = `
+    <section class="page-atribute">
+        <div class="img-one">
+            <img src="./src/assets/emblema-atributo.png" alt="emblema-atributo">
+        </div>
+        <div class="atributes">
+            <div class="info-topo">Atributos</div>
+            <div class="information">
+                <div class="atribute-box">
+                    <div class="atribute-box-info">
+                        <p>Força</p>
+                        <img src="./src/assets/emblema-forca.png" alt="emblema-forca">
+                    </div>
+                    <div class="atribute-box-points">
+                        <div class="points-left">
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                        </div>
+                        <div class="points-right">
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="atribute-box">
+                    <div class="atribute-box-info">
+                        <p>Força</p>
+                        <img src="./src/assets/emblema-forca.png" alt="emblema-forca">
+                    </div>
+                    <div class="atribute-box-points">
+                        <div class="points-left">
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                        </div>
+                        <div class="points-right">
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="atribute-box">
+                    <div class="atribute-box-info">
+                        <p>Força</p>
+                        <img src="./src/assets/emblema-forca.png" alt="emblema-forca">
+                    </div>
+                    <div class="atribute-box-points">
+                        <div class="points-left">
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                        </div>
+                        <div class="points-right">
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="atribute-box">
+                    <div class="atribute-box-info">
+                        <p>Força</p>
+                        <img src="./src/assets/emblema-forca.png" alt="emblema-forca">
+                    </div>
+                    <div class="atribute-box-points">
+                        <div class="points-left">
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                        </div>
+                        <div class="points-right">
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="atribute-box">
+                    <div class="atribute-box-info">
+                        <p>Força</p>
+                        <img src="./src/assets/emblema-forca.png" alt="emblema-forca">
+                    </div>
+                    <div class="atribute-box-points">
+                        <div class="points-left">
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                        </div>
+                        <div class="points-right">
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="atribute-box">
+                    <div class="atribute-box-info">
+                        <p>Força</p>
+                        <img src="./src/assets/emblema-forca.png" alt="emblema-forca">
+                    </div>
+                    <div class="atribute-box-points">
+                        <div class="points-left">
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                        </div>
+                        <div class="points-right">
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                            <div class="circle-point"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="img-two">
+            <img src="./src/assets/emblema-atributo.png" alt="emblema-atributo">
+        </div>
+    </section>
         `
 }

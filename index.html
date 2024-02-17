@@ -21,7 +21,7 @@
             <button class="option" onclick="changeColor(this), changePage(this)">
                 Inventário
             </button>
-            <button class="option" onclick="changeColor(this)">
+            <button class="option" onclick="changeColor(this), changePage(this)">
                 Atributos
             </button>
             <button class="option" onclick="changeColor(this)">
@@ -36,7 +36,7 @@
         </div>
     </menu>
     <section class="pages">
-        <section class="page-introduction">
+        <section class="page-introduction display-none">
             
             <div class="personagem-perfil">
                 <div class="mural">
@@ -72,14 +72,15 @@
                             <p>M/E/I</p>
                             <p>Fogo</p>
                             <img 
-            class="icon-peron" 
-            src="./src/assets/icone-peron.png" 
-            alt="icon-peron" />
+                                class="icon-peron" 
+                                src="./src/assets/icone-peron.png" 
+                                alt="icon-peron" />
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <section class="page-ability"></section>
     </section>
     <script src="./src/main.js"></script>
 </body>
