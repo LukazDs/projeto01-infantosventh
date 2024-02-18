@@ -5,6 +5,7 @@
 @import url('./atribute.css');
 @import url('./ability.css');
 @import url('./entity.css');
+@import url('./history.css');
 
 .display-none {
     display: none;

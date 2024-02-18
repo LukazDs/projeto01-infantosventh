@@ -1,0 +1,36 @@
+.page-history {
+    width: 100%;
+    height: 100vh;
+
+    background-image: url('../assets/bg-page06.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: space-around;
+}
+.history-info {
+    width: 100%;
+    margin-top: 156px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: black;
+}
+.history-content {
+    margin: 14px 20px;
+
+    text-align: justify;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+}
+.icon-perf-hist {
+    margin: 20px;
+}

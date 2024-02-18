@@ -57,7 +57,7 @@
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    font-size: 18px;
+    font-size: 16px;
 
     color: #013F9D;
 }
@@ -73,6 +73,9 @@
 }
 .entity-info-mensures > .entity-info-name {
     color: green;
+}
+.entity > .entity-info-name {
+    font-size: 22px;
 }
 .ent-box-desc {
     display: flex;

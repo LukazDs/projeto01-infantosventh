@@ -30,6 +30,9 @@ function changePage(element) {
     if(optionButton === "Entidades") {
         makePageEntity(page)
     }
+    if(optionButton === "História") {
+        makePageHistory(page)
+    }
 
 }
 
@@ -264,7 +267,7 @@ function makePageEntity(page) {
     page.innerHTML = `
         <section class="page-entity">
             <div class="entity-info">
-                <div class="info-topo">Entidades</div>
+                <div class="info-topo">Criaturas e Entidades</div>
                 <div class="information">
                     <div class="entity-box">
                         <img src="./src/assets/entidade-lobo.png" alt="entidade-lobo">
@@ -285,6 +288,32 @@ function makePageEntity(page) {
             </div>
             <div class="entity-page-img">
                 <img src="./src/assets/circulo-invocacao.png" alt="circulo-invocacao">
+            </div>
+        </section>
+        `
+}
+
+function makePageHistory(page) {
+    page.innerHTML = `
+        <section class="page-history">
+            <div class="history-info">
+                <div class="info-topo">História</div>
+                <div class="information">
+                    <p class="history-content">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ullam consequatur consequuntur quidem illum ratione vel quam, earum itaque dolorem? Repellat tempore mollitia dolores qui hic provident quasi facilis placeat.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ullam consequatur consequuntur quidem illum ratione vel quam, earum itaque dolorem? Repellat tempore mollitia dolores qui hic provident quasi facilis placeat.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ullam consequatur consequuntur quidem illum ratione vel quam, earum itaque dolorem? Repellat tempore mollitia dolores qui hic provident quasi facilis placeat.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ullam consequatur consequuntur quidem illum ratione vel quam, earum itaque dolorem? Repellat tempore mollitia dolores qui hic provident quasi facilis placeat.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ullam consequatur consequuntur quidem illum ratione vel quam, earum itaque dolorem? Repellat tempore mollitia dolores qui hic provident quasi facilis placeat.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ullam consequatur consequuntur quidem illum ratione vel quam, earum itaque dolorem? Repellat tempore mollitia dolores qui hic provident quasi facilis placeat.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ullam consequatur consequuntur quidem illum ratione vel quam, earum itaque dolorem? Repellat tempore mollitia dolores qui hic provident quasi facilis placeat.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ullam consequatur consequuntur quidem illum ratione vel quam, earum itaque dolorem? Repellat tempore mollitia dolores qui hic provident quasi facilis placeat.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ullam consequatur consequuntur quidem illum ratione vel quam, earum itaque dolorem? Repellat tempore mollitia dolores qui hic provident quasi facilis placeat.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ullam consequatur consequuntur quidem illum ratione vel quam, earum itaque dolorem? Repellat tempore mollitia dolores qui hic provident quasi facilis placeat.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ullam consequatur consequuntur quidem illum ratione vel quam, earum itaque dolorem? Repellat tempore mollitia dolores qui hic provident quasi facilis placeat.
+                    </p>
+                    <img class="icon-perf-hist" src="./src/assets/emblema-perfil.png" alt="emblema-perfil">
+                </div>
             </div>
         </section>
         `
