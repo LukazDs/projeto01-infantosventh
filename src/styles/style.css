@@ -4,6 +4,7 @@
 @import url('./inventory.css');
 @import url('./atribute.css');
 @import url('./ability.css');
+@import url('./entity.css');
 
 .display-none {
     display: none;

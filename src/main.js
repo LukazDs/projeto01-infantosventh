@@ -27,6 +27,9 @@ function changePage(element) {
     if(optionButton === "Habilidades") {
         makePageAbility(page)
     }
+    if(optionButton === "Entidades") {
+        makePageEntity(page)
+    }
 
 }
 
@@ -222,7 +225,6 @@ function makePageAtribute(page) {
         `
 }
 
-
 function makePageAbility(page) {
     page.innerHTML = `
     <section class="page-ability">
@@ -255,5 +257,35 @@ function makePageAbility(page) {
             </div>   
         </div>
     </section>
+        `
+}
+
+function makePageEntity(page) {
+    page.innerHTML = `
+        <section class="page-entity">
+            <div class="entity-info">
+                <div class="info-topo">Entidades</div>
+                <div class="information">
+                    <div class="entity-box">
+                        <img src="./src/assets/entidade-lobo.png" alt="entidade-lobo">
+                        <div class="entity">
+                            <p class="entity-info-name">Nevorafh</p>
+                            <p class="entity-info-status">(Lendário)</p>
+                        </div>
+                        <div class="entity-info-mensures">
+                            <p class="entity-info-name">Nível</p>
+                            <div class="ent-box-desc">200</div>
+                        </div>
+                        <div class="entity-info-mensures">
+                            <p class="entity-info-name">Quant.</p>
+                            <div class="ent-box-desc">1</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="entity-page-img">
+                <img src="./src/assets/circulo-invocacao.png" alt="circulo-invocacao">
+            </div>
+        </section>
         `
 }
