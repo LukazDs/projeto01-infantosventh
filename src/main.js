@@ -24,6 +24,9 @@ function changePage(element) {
     if(optionButton === "Atributos") {
         makePageAtribute(page)
     }
+    if(optionButton === "Habilidades") {
+        makePageAbility(page)
+    }
 
 }
 
@@ -214,6 +217,42 @@ function makePageAtribute(page) {
         </div>
         <div class="img-two">
             <img src="./src/assets/emblema-atributo.png" alt="emblema-atributo">
+        </div>
+    </section>
+        `
+}
+
+
+function makePageAbility(page) {
+    page.innerHTML = `
+    <section class="page-ability">
+        <div class="armor-inventory">
+            <div class="info-topo">Habilidades</div>
+            <div class="information">
+                <div class="ability-box">
+                    <img src="./src/assets/garras-icone.png" alt="garras-icone">
+                    <p>Parede de Gelo</p>
+                    <div class="ability-box-desc">
+                        <p class="ability-exp">12 exp</p>
+                        <p class="ability-type">M</p>
+                    </div>
+                </div>
+        
+            </div>   
+        </div>
+   
+        <div class="itens-inventory">
+            <div class="info-topo">Em Desenvolvimento</div>
+            <div class="information">
+                <div class="ability-box">
+                    <p class="pts">12/25 pts</p>
+                    <p class="ability-name">Clone de gelo</p>
+                    <div class="ability-box-desc">
+                        <p class="ability-exp">12 exp</p>
+                        <p class="ability-type">M</p>
+                    </div>
+                </div>
+            </div>   
         </div>
     </section>
         `
