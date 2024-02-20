@@ -45,3 +45,10 @@
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
   }
+
+  @media (max-width: 851px) {
+    .information {
+      width:  80%;
+      height: 360px;
+    }
+  }
